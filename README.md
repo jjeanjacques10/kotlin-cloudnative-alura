@@ -22,6 +22,18 @@ comando abaixo:
 docker-compose up -d
 ```
 
+## Levando a imagem para o Docker Hub
+
+Para levar a imagem para o Docker Hub, basta executar o comando abaixo:
+
+```bash
+docker image build -t car-service:v1 .
+docker tag sha256:249a6ef40b2a039b71e0e40d763e44ea3e0442dd86aa478a998fc3027a7f3139 jjeanjacques10/car-service:v1
+docker push jjeanjacques10/car-service:v1
+```
+
+> Resultado: https://hub.docker.com/repository/docker/jjeanjacques10/car-service/
+
 ## Referências
 
 - [Resilience4J](https://resilience4j.readme.io/docs)
