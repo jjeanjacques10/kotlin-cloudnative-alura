@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*
 @RestController
 @RequestMapping("/cars")
 class CarResource(
-    private val carService: CarService
+        private val carService: CarService
 ) {
 
     @GetMapping
@@ -18,5 +18,8 @@ class CarResource(
 
     @PutMapping("/{id}")
     fun update(@RequestBody car: Car, @PathVariable id: Long) = carService.update(car, id)
+
+    @GetMapping("/lista-modelo")
+    fun listByInventory(@RequestParam modelo: String) = carService.listByInventory(modelo)
 }
 

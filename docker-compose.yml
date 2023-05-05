@@ -19,3 +19,13 @@ services:
     restart: always
     ports:
       - 6379:6379
+  mockserver:
+    image: mockserver/mockserver
+    container_name: mockserver
+    restart: always
+    ports:
+      - 1080:1080
+    environment:
+      MOCKSERVER_INITIALIZATION_JSON_PATH: /config/mockserver.json
+    volumes:
+      - ./mockserver:/config
