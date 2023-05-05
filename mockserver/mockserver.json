@@ -29,7 +29,7 @@
     },
     "httpResponse": {
       "statusCode": 200,
-      "body": "[{\n  \"make\": \"Fiat\",\n  \"model\": \"Uno\",\n  \"year\": 2021\n}]",
+      "body": "[{\n  \"make\": \"Fiat\",\n  \"model\": \"Uno\",\n  \"year\": 1999\n}]",
       "headers": {
         "Content-Type": "application/json"
       },
