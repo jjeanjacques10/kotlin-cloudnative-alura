@@ -1,4 +1,4 @@
-package br.com.car.config
+package br.com.car.config.retrofit
 
 import br.com.car.adapters.http.CarHttpService
 import okhttp3.OkHttpClient
