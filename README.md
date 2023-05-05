@@ -1,4 +1,4 @@
-# Kotlin CloudNative Alura
+# Kotlin, DevOps e Cloud Native - Alura
 
 Projeto de estudo do curso de Kotlin CloudNative da Alura.
 
@@ -25,6 +25,11 @@ docker-compose up -d
 ## Referências
 
 - [Resilience4J](https://resilience4j.readme.io/docs)
+- [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-basics.html)
+
+## Notas
+
+- Para adicionar as Coroutines precisa importar a dependência `kotlinx-coroutines-core` e `kotlinx-coroutines-jdk8`
 
 ---
 Desenvolvido por [Jean Jacques Barros](https://github.com/jjeanjacques10)
