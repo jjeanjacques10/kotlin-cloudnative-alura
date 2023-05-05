@@ -4,7 +4,7 @@ Projeto de estudo do curso de Kotlin CloudNative da Alura.
 
 ## Curso
 
-- [Link da Formação](https://cursos.alura.com.br/formacao-cloud-native-kotlin)
+- [Aprofunde em Kotlin e DevOps com uma aplicação Cloud Native](https://cursos.alura.com.br/formacao-cloud-native-kotlin)
 
 ## Tópicos abordados
 
