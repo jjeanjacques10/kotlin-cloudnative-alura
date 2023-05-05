@@ -1,18 +1,42 @@
-{
-  "httpRequest": {
-    "method": "GET",
-    "path": "/cars-inventory",
-    "queryStringParameters": {
-      "model": [
-        "gol"
-      ]
+[
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/cars-inventory",
+      "queryStringParameters": {
+        "model": [
+          "gol"
+        ]
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "[{\n  \"make\": \"Volkswagen\",\n  \"model\": \"Gol\",\n  \"year\": 2021\n}]",
+      "headers": {
+        "Content-Type": "application/json"
+      }
     }
   },
-  "httpResponse": {
-    "statusCode": 200,
-    "body": "[{\n  \"make\": \"Volkswagen\",\n  \"model\": \"Gol\",\n  \"year\": 2021\n}]",
-    "headers": {
-      "Content-Type": "application/json"
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/cars-inventory",
+      "queryStringParameters": {
+        "model": [
+          "uno"
+        ]
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "body": "[{\n  \"make\": \"Fiat\",\n  \"model\": \"Uno\",\n  \"year\": 2021\n}]",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "delay": {
+        "timeUnit": "SECONDS",
+        "value": 6
+      }
     }
   }
-}
+]

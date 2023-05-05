@@ -22,5 +22,9 @@ comando abaixo:
 docker-compose up -d
 ```
 
+## Referências
+
+- [Resilience4J](https://resilience4j.readme.io/docs)
+
 ---
 Desenvolvido por [Jean Jacques Barros](https://github.com/jjeanjacques10)
